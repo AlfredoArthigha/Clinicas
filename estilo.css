@@ -51,6 +51,10 @@ body{
     height: 400%;
   }
 
+  h1{
+      color: #424242;
+  }
+
 
 nav ul{
 	list-style-type: none;
@@ -78,8 +82,11 @@ nav>ul>li{
 }
 
 footer{
+    position: relative;
+    bottom: 0;
     padding: 1%;
     background-color: aqua;
+    width: 100%;
 }
 
 /*Estilo para smartphone*/
