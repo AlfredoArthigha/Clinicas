@@ -5,9 +5,16 @@ h1{
 
 }
 
+h2{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+
+}
+
 p{
     font-family: cursive;
-    font-size: large;
+    font-size: smaller;
     color: #424242;
     margin-left: 5%;
     
@@ -21,9 +28,20 @@ body{
 .imagen{
     float: right;
     margin-top: -10%;
-    margin-right: 5%;
+    margin-right: 5%;      
+    animation: escalar 1.5s infinite alternate;
+    border-radius: 1.05rem;
+    }
+    @keyframes escalar{to{
+        transform:scale(1);
+    }
+    from{
+        transform: scale(1.05);
+    }
     
 }
+    
+
 .video-box {
     width: 100%;
     max-width: 1080px;
@@ -107,6 +125,7 @@ p{
     
 }
 
+
 body{
     background: color #e1f5fa;;
     
@@ -154,6 +173,7 @@ nav>ul>li{
 
 }
 
+/*Estilo para tablet*/
 @media only screen and (max-width: 800px){
 
 
@@ -210,10 +230,7 @@ nav>ul>li{
         float: left;
         
     }
-    footer{
-        padding: 1%;
-        background-color: aqua;
-    }
+   
     
     }
 
